@@ -17,7 +17,6 @@ class TodoStore {
     }
   }
 
-  // not used in other examples, but a basic example of  computed, a memoized value that responds to changes in observables
   @computed doneTodos() {
     return this.todos.filter(el => el.isDone);
   }
