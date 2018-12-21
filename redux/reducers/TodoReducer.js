@@ -9,7 +9,7 @@ const TodoStore = (state = [], action) => {
         return el;
       })
       return newTodos;
-      return state;
+     
     default:
       return state
   }
