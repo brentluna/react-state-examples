@@ -8,7 +8,7 @@ const TodoStore = (state = [], action) => {
         }
         return el;
       })
-      state.todos = newTodos;
+      return newTodos;
       return state;
     default:
       return state
